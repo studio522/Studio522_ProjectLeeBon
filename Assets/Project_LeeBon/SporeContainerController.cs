@@ -17,12 +17,13 @@ public class SporeContainerController : MonoBehaviour
             //Spore.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = c.ToString();
             Spore.transform.parent = gameObject.transform;
             GameObject TextMeshPro = Spore.transform.GetChild(1).GetChild(0).gameObject;
-            print(TextMeshPro.name);
+            //print(TextMeshPro.name);
 
-            string s = TextMeshPro.GetComponent<TextMeshPro>().text;
-            print("sss="+s);
+            //string s = TextMeshPro.GetComponent<TextMeshPro>().text;
+            //print("sss="+s);
 
             TextMeshPro.GetComponent<TextMeshPro>().text = c.ToString();
+
         }
 
     }
